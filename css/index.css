@@ -1,0 +1,114 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    color: #FFFFFF;
+    background-color: rgb(0, 0, 0);
+    font-family: arial,helvetica,sans-serif,微軟正黑體;
+}
+
+.top {
+	margin:0px auto;
+}
+
+.top nav{ /* 選單背景 */
+	background-color: rgba(26, 26, 26, 0.5);
+    border-color:rgb(26, 26, 26, 0.5);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar-light .navbar-brand{  /*logo 顏色*/
+	color: #FFFFFF;
+}
+
+ /*選單active狀態*/
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	background-color: #FFFFFF;
+	color: rgba(0,0,0,0.9);
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{ /*Logo hover*/
+	color: rgb(255, 156, 156);
+}
+
+.navbar-light .navbar-nav .nav-link { /*選單文字的顏色*/
+	color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover { /*選單文字 hover*/
+	color: rgb(255, 156, 156);
+}
+.navbar-collapse{
+    float: right;
+}
+/***************************************************************/
+.home{
+    background-image: url(../img/bg_index.jpg);
+    display: block;
+    height: 780px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home .container{
+    height: 780px;
+}
+.home .container .row{
+    height: 780px;
+}
+.netflix{
+    background-image: url(../img/bg_index2.jpg);
+    display: block;
+    height: 780px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.netflix .container{
+    height: 780px;
+}
+.netflix .container .row{
+    height: 780px;
+}
+.box {
+	padding: 20px;
+}
+.box h1{
+    font-family: 'Kaushan Script';
+    font-weight: bold;
+    font-size: 81px;
+}
+.box h3{
+    font-family: 'Kaushan Script';
+    font-size: 45px;
+}
+.box ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.contact {
+	text-align: center;
+}
+
+.contact ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+.contact ul li {
+	display: inline-block;
+	padding: 0px 20px;
+	font-size: 30px;
+}
+
+.contact ul li a{
+	color: #FFFFFF;
+}
+
+.contact ul li a:hover{
+	color: rgb(0, 251, 255);
+}
